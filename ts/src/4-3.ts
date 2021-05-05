@@ -14,7 +14,7 @@ const fibo = (n: number): number => {
   return fibo(n - 2) + fibo(n - 1);
 };
 
-rl.question("input two number:", (answer) => {
+rl.question("input number:", (answer) => {
   const result = fibo(Number(answer));
   console.log({ result });
   rl.close();
