@@ -123,7 +123,16 @@
   - 動的計画法を使うことで計算量は、$O(N)$となる
   - 5-1.ts
 
+- 緩和
+  - dp配列の各値が徐々に小さい値に更新されていく様子。詳細は後ほど。
+
 ## appendix
 
 - [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【前編】](https://qiita.com/drken/items/4a7869c5e304883f539b)
 - [計算量オーダーの求め方を総整理！ 〜 どこから log が出て来るか 〜](https://qiita.com/drken/items/872ebc3a2b5caaa4a0d0)
+
+
+## TODO
+
+- 数式の書式化
+- format
