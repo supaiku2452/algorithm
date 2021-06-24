@@ -169,17 +169,23 @@
     - 同じ値が来ても順番が保証される
 
 - 挿入ソート
- - 平均計算量: $O(N^2)$
- - 最悪計算量: $O(N^2)$
- - 安定性:o
- - in-place: o
- - insertion.ts
+  - 平均計算量: $O(N^2)$
+  - 最悪計算量: $O(N^2)$
+  - 安定性:o
+  - in-place: o
+  - insertion.ts
+
 
 - マージソート
+  - 分割統治法を活用したソートアルゴリズム
   - 平均計算量: $O(NlogN)$
   - 最悪計算量: $O(NlogN)$
- - 安定性:o
- - in-place: o
+  - 安定性:o
+  - in-place: o
+  - merge.ts
+
+
+
 ## appendix
 
 - [DFS (深さ優先探索) 超入門！ 〜 グラフ・アルゴリズムの世界への入口 〜【前編】](https://qiita.com/drken/items/4a7869c5e304883f539b)
