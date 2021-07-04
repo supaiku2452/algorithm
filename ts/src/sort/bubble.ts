@@ -1,4 +1,4 @@
-// バブルソート 昇順
+// バブルソート
 
 export type BubbleSortType = "asc" | "desc";
 type Param = {
@@ -7,16 +7,17 @@ type Param = {
 };
 
 export const bubbleSort = ({ ary, sortType = "asc" }: Param) => {
-  for (let i = 0; i < ary.length; i++) {
-    for (let j = i + 1; j < ary.length; j++) {
-      if (comparisonDependOnOrder(ary[i], ary[j], sortType)) {
-        let temp = ary[i];
-        ary[i] = ary[j];
-        ary[j] = temp;
+  let newArray = [...ary];
+  for (let i = 0; i < newArray.length; i++) {
+    for (let j = i + 1; j < newArray.length; j++) {
+      if (comparisonDependOnOrder(newArray[i], newArray[j], sortType)) {
+        let temp = newArray[i];
+        newArray[i] = newArray[j];
+        newArray[j] = temp;
       }
     }
   }
-  return ary;
+  return newArray;
 };
 
 const comparisonDependOnOrder = (
