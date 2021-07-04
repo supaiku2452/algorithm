@@ -12,6 +12,9 @@
     "run": "yarn ts-node"
   },
   "devDependencies": {
-    "prettier": "^2.3.0"
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.0",
+    "ts-jest": "^27.0.3"
   }
 }
